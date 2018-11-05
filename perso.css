@@ -1,0 +1,38 @@
+.sidebar {
+	overflow-y: scroll;
+	height: 100%;
+}
+
+.item {
+	cursor: pointer;
+}
+
+.item:hover{
+	background-color: #aaa;
+}
+
+.selected{
+	background-color: #aaa;
+	color: #f50b0b;
+	font-weight: bold;
+}
+
+#listitem{
+	margin-left:5px;
+	height:100%;
+	overflow-y: scroll;
+}
+
+.thumbPerso{
+	display: inline-flex;
+	margin:3px;
+}
+
+.thumbnail:hover{
+	background-color: #3bafda;
+}
+
+.thumbImg{
+	max-width:250px !important;
+	max-height:250px;
+}
